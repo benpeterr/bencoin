@@ -1,0 +1,13 @@
+[project]
+name = "bencoin"
+authors = []
+description = "BenCoin SIP-010-like fungible token in Clarity"
+telemetry = false
+cache_dir = "./.clarinet"
+requirements = []
+
+[contracts.bencoin]
+path = "contracts/bencoin.clar"
+clarity_version = 2
+epoch = 2.5
+dependencies = []
